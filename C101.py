@@ -11,7 +11,7 @@ class Transferdata:
             dbx.files_upload(f.read(), file_to)
 
 def main(): 
-    acess_token = 'sl.A6QMmkz7WVncBn5ZL-8Ls0CeCzmcUdBLfoYsWMHuwnis1zH2TxjnRqGRMF05OPZ32ttowfCmmM8ptAF1i92RABazqI9jwcl475aTLApOPIiFPDRKFYYBemkBoQ2oPea60hdB2mz3QXrK'
+    acess_token = '*************************************************************'
     transferdata = Transferdata(acess_token)
 
     file_from = input('Enter filepath of file you want to backup here:')
